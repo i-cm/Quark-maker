@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <div><h1>You have <text Id="nq" Class="Quark">1</text> Unassinged quarks.</h1><h2>You have <font color:"red"><text Id="n" Class="Red Quark">0</text></font> Red quarks.</h2><br><h2>You have <text Id="n2" Class="Green Quark">0</text> Green quarks.</h2><br><h2>You have <text Id="n3" Class="Blue Quark">0</text> Blue quarks.</h2></br></br></div>
+        <div>
+            <button onclick=assignall(4)>Assign All</button><button onclick=respc()>Respc quarks</button>
+            <button onclick=tick(1)>Genrate a quark from assigned quark</button><br><table>
+                <tr>Red quark (<text Id="n">0</text>) <button onclick=assignall(1)>Assort all</button></tr><br<tr>Green quark (<text Id="n2">0</text>) <button onclick=assignall(2)>Assort all</button></tr><br><tr>Blue quark (<text Id="n3">0</text>) <button onclick=assignall(3)>Assort all</button></tr>
+            </table>
+        </div>
+        <div>
+            <h1>
+                You have <text Id="gluon">0</text> unassigned gluons.
+            </h1>
+            <button onclick=reset(1)>Reset for <text Id="gluongain">0</text> gluons.</button><br><div Id="blockongluonreset" display='none'><table>
+                <tr>
+                    You have <text Id="rggluon">0
+                        
+                    </text> Red-Green gluon.
+                </tr><br>
+                <tr>
+                    You have <text Id="gbgluon">0
+                        
+                    </text> Green-Blue gluon.
+                </tr><br>
+                <tr>
+                    You have <text Id="brgluon">0
+                        
+                    </text> Blue-Red gluon.
+                </tr>
+            </table><br></div>
+        </div>
+    </body>
+    <body>
+        <br><h1>Comments</h1>
+        None
+    </body>
+</html>
