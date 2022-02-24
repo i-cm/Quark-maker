@@ -7,6 +7,7 @@ rggluon=0
 gbgluon=0
 brgluon=0
 gluongain=0
+gluonunlocked=0
 
 function assignall(i) {
     if(i==1) {
