@@ -8,6 +8,7 @@ gbgluon=0
 brgluon=0
 gluongain=0
 gluonunlocked=0
+get.("blockongluonreset").style.display = "none"
 
 function assignall(i) {
     if(i==1) {
@@ -70,6 +71,7 @@ function reset(i) {
             respc()
             quark=1
             render()
-            }
+            get("blockongluonreset").style.display = "block"
+        }
     }
 }
